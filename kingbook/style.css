@@ -1,0 +1,775 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 24px;
+}
+
+.container nav ul li {
+  list-style: none;
+}
+
+.container nav ul a {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #202224;
+}
+
+.container nav ul h4 {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  color: #011842;
+}
+
+.container nav #burger {
+  display: none;
+}
+
+.container .order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.container .order .left {
+  position: absolute;
+  right: 1200px;
+}
+
+.container .order .left2 {
+  position: absolute;
+  right: 80px;
+  -webkit-transform: rotate(182deg);
+          transform: rotate(182deg);
+}
+
+.container .order .order__titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 304px;
+}
+
+.container .order .order__titles .order__titles__title {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+  color: #202224;
+}
+
+.container .order .order__titles .order__titles__text {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  color: #202224;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.container .order .order__titles .order__titles__btn {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  background: #202224;
+  border-radius: 16px;
+  padding: 12px 25px;
+  color: #fff;
+}
+
+.container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 81px;
+  gap: 40px;
+}
+
+.container .cards .cards__card {
+  cursor: pointer;
+}
+
+.container .cards2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container .cards2 .cards2__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.container .tt {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+  color: #202224;
+  margin-top: 60px;
+  margin-bottom: 48px;
+}
+
+.container .buttonn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.container .buttonn .btn {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #202224;
+  padding: 15px 25px;
+  border: transparent;
+  background: #EFF1F3;
+  border-radius: 16px;
+}
+
+.container .types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .types .types__card {
+  background: #FFEDD4;
+  border-radius: 48px;
+  width: 272px;
+  height: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 32px;
+  gap: 32px;
+}
+
+.container .types .types__card .types__card__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+
+.container .types .types__card .types__card__title .types__card__title__text {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #202224;
+  letter-spacing: -0.01em;
+}
+
+.container .types .types__card .types__card__li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+
+.container .types .types__card .types__card__li .types__card__li__text {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #202224;
+}
+
+.container .types .types__card .types__card__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.container .types .types__card .types__card__price .types__card__price__title {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #202224;
+}
+
+.container .types .types__card .types__card__price .types__card__price__text {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #707070;
+  text-decoration: line-through;
+}
+
+.container .types .types__card .types__card__price .types__card__price__title2 {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.container .types .types__card .types__card__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .types .types__card .types__card__btn .types__card__btn__btn {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #202224;
+  padding: 12px 24px;
+  border: 1px solid #202224;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.container .types .kok {
+  background: #DEDEDD;
+}
+
+.container .types .sariq {
+  background: #FFF1BF;
+}
+
+.container .types .yashil {
+  background: #D2F5FF;
+}
+
+.container .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .link .link__titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 60px;
+}
+
+.container .link .link__titles .link__titles1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+
+.container .link .link__titles .link__titles1 .link__titles1__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: 220px;
+}
+
+.container .link .link__titles .link__titles1 .link__titles1__2 .link__titles1__text {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 115%;
+  color: #A29F9D;
+}
+
+.container .link .link__titles .link__titles1 .link__titles1__2 .link__titles1__title {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202224;
+}
+
+.container footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 105px;
+}
+
+.container footer .social__titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.container footer .social__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.container footer .social__text .social__text__title {
+  font-family: 'TT Travels';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 115%;
+  color: black;
+}
+
+.container footer .social__text .social__text__text {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 115%;
+  color: #9D9FA2;
+}
+
+.container body {
+  position: relative;
+  height: 100%;
+}
+
+.container body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  margin: 40px;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto;
+  /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 60%;
+  /* Could be more or less, depending on screen size */
+  border-radius: 60px;
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 312px;
+  top: 40px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.form__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+
+.form__title .form__title__btn {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: white;
+  padding: 16px 32px;
+  background: #202224;
+  border-radius: 12px;
+  width: 300px;
+}
+
+.form__title__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.form____title__input {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #202224;
+}
+
+.form .form__title__input__input {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #202224;
+  border: 1px solid #FFC580;
+  border-radius: 12px;
+  padding: 16px;
+  width: 300px;
+}
+
+.ti {
+  padding: 30px 0 0 30px;
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards .two {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+  .container {
+    padding: 0 50px;
+  }
+  .container .link .link__titles {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .cards .to {
+    display: none;
+  }
+  .container .cards2 .p {
+    display: none;
+  }
+  .container .tt {
+    margin-left: 30px;
+  }
+  .container .types {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+  }
+  .container .types .types__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .container .link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+  }
+  .container .link .link__titles1__2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .container footer {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container nav ul {
+    display: none;
+  }
+  .container nav #burger {
+    display: block;
+  }
+  .container .swiper {
+    margin-left: 50px;
+  }
+  .container .swiper-button-prev {
+    margin-left: -10px;
+  }
+  .container .swiper-button-next {
+    margin-right: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
